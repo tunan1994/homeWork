@@ -1,7 +1,6 @@
 public class Task3 {
-    /**
-     * @apiNote не нужен FileNotFoundException, IndexOutOfBoundsException и NullPointerException заменил на if
-     */
+
+
     public static void main(String[] args) throws Exception {
         try {
             int a = 90;

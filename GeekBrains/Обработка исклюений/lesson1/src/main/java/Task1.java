@@ -21,7 +21,7 @@ public class Task1 {
                 System.out.println(in.nextFloat());
                 break;
             }
-            System.out.println("не число ");
+            System.out.println("Некоректный ввод");
         }
     }
 
@@ -31,7 +31,7 @@ public class Task1 {
         System.out.print("->");
         String result = in.next();
         while (!inFloat(result)) {
-            System.out.println("не число ");
+            System.out.println("Некоректный ввод");
             System.out.print("->");
             result = in.next();
         }
